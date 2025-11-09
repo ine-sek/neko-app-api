@@ -1,0 +1,22 @@
+{
+    "env": {
+        "node": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended", // TypeScriptを使っている場合
+        "plugin:prettier/recommended" // prettierとの連携
+    ],
+    "parser": "@typescript-eslint/parser", // TypeScriptを使っている場合
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint" // TypeScriptを使っている場合
+    ],
+    "rules": {
+        // 必要に応じて追加のESLintルールを設定
+    }
+}

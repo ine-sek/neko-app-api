@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": false, // 保存時のprettierによる自動フォーマットはオフにする
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true // 保存時にESLintの自動修正を有効にする
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ]
+}
